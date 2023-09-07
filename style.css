@@ -1,0 +1,16 @@
+/* Add this CSS to your existing styles or in a separate CSS file */
+@media only screen and (max-width: 600px) {
+    .column-container {
+      overflow-x: scroll; /* Enable horizontal scrolling on small screens */
+      white-space: nowrap; /* Prevent columns from wrapping */
+    }
+  
+    .columns {
+      width: 100%; /* Make each column take up the full width */
+      float: none; /* Remove floating behavior */
+      display: inline-block; /* Display columns inline */
+      vertical-align: top; /* Align columns to the top */
+      white-space: normal; /* Restore normal text wrapping inside columns */
+    }
+  }
+  
